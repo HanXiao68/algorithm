@@ -31,10 +31,10 @@ void quick_Sort(int a[],int l,int r){
     
     
 }
-int main(){
-    int a[] = {7,6,2,8,1};
-    quick_Sort(a,0,4);
-    for(int i=0;i<=4;i++) cout<<a[i]<<" ";
-}
+//int main(){
+//    int a[] = {7,6,2,8,1};
+//    quick_Sort(a,0,4);
+//    for(int i=0;i<=4;i++) cout<<a[i]<<" ";
+//}
 
 
