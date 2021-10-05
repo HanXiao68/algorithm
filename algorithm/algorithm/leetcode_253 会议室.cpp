@@ -47,16 +47,16 @@ public:
     }
 
 };
-int main(){
-    
-    vector<vector<int > > a = {
-//        {0,30},{5,10},{15,20}
-        {7,10},{2,4}
-    };
-    solution s;
-    cout<<s.minRooms(a)<<endl;
-    return 0;
-}
+//int main(){
+//
+//    vector<vector<int > > a = {
+////        {0,30},{5,10},{15,20}
+//        {7,10},{2,4}
+//    };
+//    solution s;
+//    cout<<s.minRooms(a)<<endl;
+//    return 0;
+//}
 
 
 

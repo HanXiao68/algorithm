@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB23AE6B270B713000D5312C /* quick_Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE6A270B713000D5312C /* quick_Sort.cpp */; };
+		BB23AE6B270B713000D5312C /* acwing_785_quick_Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE6A270B713000D5312C /* acwing_785_quick_Sort.cpp */; };
 		BB23AE6D270BEE5400D5312C /* leetcode_253 会议室.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE6C270BEE5400D5312C /* leetcode_253 会议室.cpp */; };
+		BB23AE6F270BF8CA00D5312C /* acwing_786 第k个数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE6E270BF8CA00D5312C /* acwing_786 第k个数.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +26,9 @@
 
 /* Begin PBXFileReference section */
 		BB23AE60270B70C800D5312C /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB23AE6A270B713000D5312C /* quick_Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quick_Sort.cpp; sourceTree = "<group>"; };
+		BB23AE6A270B713000D5312C /* acwing_785_quick_Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = acwing_785_quick_Sort.cpp; sourceTree = "<group>"; };
 		BB23AE6C270BEE5400D5312C /* leetcode_253 会议室.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "leetcode_253 会议室.cpp"; sourceTree = "<group>"; };
+		BB23AE6E270BF8CA00D5312C /* acwing_786 第k个数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_786 第k个数.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 		BB23AE62270B70C800D5312C /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				BB23AE6A270B713000D5312C /* quick_Sort.cpp */,
+				BB23AE6A270B713000D5312C /* acwing_785_quick_Sort.cpp */,
 				BB23AE6C270BEE5400D5312C /* leetcode_253 会议室.cpp */,
+				BB23AE6E270BF8CA00D5312C /* acwing_786 第k个数.cpp */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -121,8 +124,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB23AE6B270B713000D5312C /* quick_Sort.cpp in Sources */,
+				BB23AE6B270B713000D5312C /* acwing_785_quick_Sort.cpp in Sources */,
 				BB23AE6D270BEE5400D5312C /* leetcode_253 会议室.cpp in Sources */,
+				BB23AE6F270BF8CA00D5312C /* acwing_786 第k个数.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
