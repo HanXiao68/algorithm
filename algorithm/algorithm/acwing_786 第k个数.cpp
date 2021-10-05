@@ -28,17 +28,15 @@ int quickSortK(int a[],int l,int r,int k){
     else return quickSortK(a, j+1, r, k - s1);
     
 }
-int main(){
-    int n,k;
-    cin>>n>>k;
-    for(int i=0;i<n;i++) scanf("%d",&a[i]);
-    
-    cout<<quickSortK(a,0,n-1,k)<<endl;
-    
-    return 0;
-}
-
-
+//int main(){
+//    int n,k;
+//    cin>>n>>k;
+//    for(int i=0;i<n;i++) scanf("%d",&a[i]);
+//
+//    cout<<quickSortK(a,0,n-1,k)<<endl;
+//
+//    return 0;
+//}
 
 
 
