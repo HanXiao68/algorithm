@@ -12,6 +12,10 @@
 		BB23AE6F270BF8CA00D5312C /* acwing_786 第k个数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE6E270BF8CA00D5312C /* acwing_786 第k个数.cpp */; };
 		BB23AE71270C05F000D5312C /* acwing_787 归并排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE70270C05F000D5312C /* acwing_787 归并排序.cpp */; };
 		BB23AE73270C193000D5312C /* acwing_788逆序对的数量.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE72270C193000D5312C /* acwing_788逆序对的数量.cpp */; };
+		BB23AE75270C1F9900D5312C /* acwing_789 （经典二分）数的范围.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE74270C1F9900D5312C /* acwing_789 （经典二分）数的范围.cpp */; };
+		BB23AE77270C23D000D5312C /* acwing_790 数的三次方根.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE76270C23D000D5312C /* acwing_790 数的三次方根.cpp */; };
+		BB23AE79270E9D0500D5312C /* acwing_791 高精度加法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE78270E9D0500D5312C /* acwing_791 高精度加法.cpp */; };
+		BB923AC8270EA37D00C1A34E /* acwing_792 高精度减法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923AC7270EA37D00C1A34E /* acwing_792 高精度减法.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +37,10 @@
 		BB23AE6E270BF8CA00D5312C /* acwing_786 第k个数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_786 第k个数.cpp"; sourceTree = "<group>"; };
 		BB23AE70270C05F000D5312C /* acwing_787 归并排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_787 归并排序.cpp"; sourceTree = "<group>"; };
 		BB23AE72270C193000D5312C /* acwing_788逆序对的数量.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_788逆序对的数量.cpp"; sourceTree = "<group>"; };
+		BB23AE74270C1F9900D5312C /* acwing_789 （经典二分）数的范围.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_789 （经典二分）数的范围.cpp"; sourceTree = "<group>"; };
+		BB23AE76270C23D000D5312C /* acwing_790 数的三次方根.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_790 数的三次方根.cpp"; sourceTree = "<group>"; };
+		BB23AE78270E9D0500D5312C /* acwing_791 高精度加法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_791 高精度加法.cpp"; sourceTree = "<group>"; };
+		BB923AC7270EA37D00C1A34E /* acwing_792 高精度减法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_792 高精度减法.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,10 @@
 				BB23AE6E270BF8CA00D5312C /* acwing_786 第k个数.cpp */,
 				BB23AE70270C05F000D5312C /* acwing_787 归并排序.cpp */,
 				BB23AE72270C193000D5312C /* acwing_788逆序对的数量.cpp */,
+				BB23AE74270C1F9900D5312C /* acwing_789 （经典二分）数的范围.cpp */,
+				BB23AE76270C23D000D5312C /* acwing_790 数的三次方根.cpp */,
+				BB23AE78270E9D0500D5312C /* acwing_791 高精度加法.cpp */,
+				BB923AC7270EA37D00C1A34E /* acwing_792 高精度减法.cpp */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -131,10 +143,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB23AE73270C193000D5312C /* acwing_788逆序对的数量.cpp in Sources */,
+				BB23AE77270C23D000D5312C /* acwing_790 数的三次方根.cpp in Sources */,
 				BB23AE6B270B713000D5312C /* acwing_785_quick_Sort.cpp in Sources */,
 				BB23AE71270C05F000D5312C /* acwing_787 归并排序.cpp in Sources */,
 				BB23AE6D270BEE5400D5312C /* leetcode_253 会议室.cpp in Sources */,
+				BB923AC8270EA37D00C1A34E /* acwing_792 高精度减法.cpp in Sources */,
 				BB23AE6F270BF8CA00D5312C /* acwing_786 第k个数.cpp in Sources */,
+				BB23AE75270C1F9900D5312C /* acwing_789 （经典二分）数的范围.cpp in Sources */,
+				BB23AE79270E9D0500D5312C /* acwing_791 高精度加法.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
