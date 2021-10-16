@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB23AE6B270B713000D5312C /* acwing_785_quick_Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE6A270B713000D5312C /* acwing_785_quick_Sort.cpp */; };
+		BB23AE6B270B713000D5312C /* acwing_785 快排递归版.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE6A270B713000D5312C /* acwing_785 快排递归版.cpp */; };
 		BB23AE6D270BEE5400D5312C /* leetcode_253 会议室.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE6C270BEE5400D5312C /* leetcode_253 会议室.cpp */; };
 		BB23AE6F270BF8CA00D5312C /* acwing_786 第k个数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE6E270BF8CA00D5312C /* acwing_786 第k个数.cpp */; };
 		BB23AE71270C05F000D5312C /* acwing_787 归并排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE70270C05F000D5312C /* acwing_787 归并排序.cpp */; };
@@ -16,6 +16,20 @@
 		BB23AE77270C23D000D5312C /* acwing_790 数的三次方根.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE76270C23D000D5312C /* acwing_790 数的三次方根.cpp */; };
 		BB23AE79270E9D0500D5312C /* acwing_791 高精度加法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB23AE78270E9D0500D5312C /* acwing_791 高精度加法.cpp */; };
 		BB923AC8270EA37D00C1A34E /* acwing_792 高精度减法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923AC7270EA37D00C1A34E /* acwing_792 高精度减法.cpp */; };
+		BB923ACA270EB0F400C1A34E /* acwing_793 高精度乘法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923AC9270EB0F400C1A34E /* acwing_793 高精度乘法.cpp */; };
+		BB923ACC270EF8DF00C1A34E /* acwing_794高精度除法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923ACB270EF8DF00C1A34E /* acwing_794高精度除法.cpp */; };
+		BB923ACE270F1D1000C1A34E /* acwing_795 前缀和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923ACD270F1D1000C1A34E /* acwing_795 前缀和.cpp */; };
+		BB923AD0270FE2A000C1A34E /* acwing_796 子矩阵的和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923ACF270FE2A000C1A34E /* acwing_796 子矩阵的和.cpp */; };
+		BB923AD2270FF0DB00C1A34E /* acwing_797 差分.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923AD1270FF0DB00C1A34E /* acwing_797 差分.cpp */; };
+		BB923AD4270FF3FD00C1A34E /* acwing_798 差分矩阵.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923AD3270FF3FD00C1A34E /* acwing_798 差分矩阵.cpp */; };
+		BB923AD6270FFF8300C1A34E /* acwing_799 最长连续不重复子序列的长度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923AD5270FFF8300C1A34E /* acwing_799 最长连续不重复子序列的长度.cpp */; };
+		BB923AD827105AF600C1A34E /* acwing_800 数组元素的目标和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923AD727105AF600C1A34E /* acwing_800 数组元素的目标和.cpp */; };
+		BB923ADA27105DAE00C1A34E /* acwing_2816 判断子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923AD927105DAE00C1A34E /* acwing_2816 判断子序列.cpp */; };
+		BB923ADC271168E600C1A34E /* acwing_801 二进制中1的个数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923ADB271168E600C1A34E /* acwing_801 二进制中1的个数.cpp */; };
+		BB923ADE27116DA000C1A34E /* acwing_802 区间和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923ADD27116DA000C1A34E /* acwing_802 区间和.cpp */; };
+		BB923AE02711BF8D00C1A34E /* acwing_785 快排非递归版.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923ADF2711BF8D00C1A34E /* acwing_785 快排非递归版.cpp */; };
+		BB923AE22711CC1700C1A34E /* acwing_803区间合并.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923AE12711CC1700C1A34E /* acwing_803区间合并.cpp */; };
+		BB923AE42712952A00C1A34E /* acwing_826 单链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB923AE32712952A00C1A34E /* acwing_826 单链表.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,7 +46,7 @@
 
 /* Begin PBXFileReference section */
 		BB23AE60270B70C800D5312C /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB23AE6A270B713000D5312C /* acwing_785_quick_Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = acwing_785_quick_Sort.cpp; sourceTree = "<group>"; };
+		BB23AE6A270B713000D5312C /* acwing_785 快排递归版.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_785 快排递归版.cpp"; sourceTree = "<group>"; };
 		BB23AE6C270BEE5400D5312C /* leetcode_253 会议室.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "leetcode_253 会议室.cpp"; sourceTree = "<group>"; };
 		BB23AE6E270BF8CA00D5312C /* acwing_786 第k个数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_786 第k个数.cpp"; sourceTree = "<group>"; };
 		BB23AE70270C05F000D5312C /* acwing_787 归并排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_787 归并排序.cpp"; sourceTree = "<group>"; };
@@ -41,6 +55,20 @@
 		BB23AE76270C23D000D5312C /* acwing_790 数的三次方根.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_790 数的三次方根.cpp"; sourceTree = "<group>"; };
 		BB23AE78270E9D0500D5312C /* acwing_791 高精度加法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_791 高精度加法.cpp"; sourceTree = "<group>"; };
 		BB923AC7270EA37D00C1A34E /* acwing_792 高精度减法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_792 高精度减法.cpp"; sourceTree = "<group>"; };
+		BB923AC9270EB0F400C1A34E /* acwing_793 高精度乘法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_793 高精度乘法.cpp"; sourceTree = "<group>"; };
+		BB923ACB270EF8DF00C1A34E /* acwing_794高精度除法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_794高精度除法.cpp"; sourceTree = "<group>"; };
+		BB923ACD270F1D1000C1A34E /* acwing_795 前缀和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_795 前缀和.cpp"; sourceTree = "<group>"; };
+		BB923ACF270FE2A000C1A34E /* acwing_796 子矩阵的和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_796 子矩阵的和.cpp"; sourceTree = "<group>"; };
+		BB923AD1270FF0DB00C1A34E /* acwing_797 差分.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_797 差分.cpp"; sourceTree = "<group>"; };
+		BB923AD3270FF3FD00C1A34E /* acwing_798 差分矩阵.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_798 差分矩阵.cpp"; sourceTree = "<group>"; };
+		BB923AD5270FFF8300C1A34E /* acwing_799 最长连续不重复子序列的长度.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_799 最长连续不重复子序列的长度.cpp"; sourceTree = "<group>"; };
+		BB923AD727105AF600C1A34E /* acwing_800 数组元素的目标和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_800 数组元素的目标和.cpp"; sourceTree = "<group>"; };
+		BB923AD927105DAE00C1A34E /* acwing_2816 判断子序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_2816 判断子序列.cpp"; sourceTree = "<group>"; };
+		BB923ADB271168E600C1A34E /* acwing_801 二进制中1的个数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_801 二进制中1的个数.cpp"; sourceTree = "<group>"; };
+		BB923ADD27116DA000C1A34E /* acwing_802 区间和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_802 区间和.cpp"; sourceTree = "<group>"; };
+		BB923ADF2711BF8D00C1A34E /* acwing_785 快排非递归版.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_785 快排非递归版.cpp"; sourceTree = "<group>"; };
+		BB923AE12711CC1700C1A34E /* acwing_803区间合并.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_803区间合并.cpp"; sourceTree = "<group>"; };
+		BB923AE32712952A00C1A34E /* acwing_826 单链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "acwing_826 单链表.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +101,8 @@
 		BB23AE62270B70C800D5312C /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				BB23AE6A270B713000D5312C /* acwing_785_quick_Sort.cpp */,
+				BB23AE6A270B713000D5312C /* acwing_785 快排递归版.cpp */,
+				BB923ADF2711BF8D00C1A34E /* acwing_785 快排非递归版.cpp */,
 				BB23AE6C270BEE5400D5312C /* leetcode_253 会议室.cpp */,
 				BB23AE6E270BF8CA00D5312C /* acwing_786 第k个数.cpp */,
 				BB23AE70270C05F000D5312C /* acwing_787 归并排序.cpp */,
@@ -82,6 +111,19 @@
 				BB23AE76270C23D000D5312C /* acwing_790 数的三次方根.cpp */,
 				BB23AE78270E9D0500D5312C /* acwing_791 高精度加法.cpp */,
 				BB923AC7270EA37D00C1A34E /* acwing_792 高精度减法.cpp */,
+				BB923AC9270EB0F400C1A34E /* acwing_793 高精度乘法.cpp */,
+				BB923ACB270EF8DF00C1A34E /* acwing_794高精度除法.cpp */,
+				BB923ACD270F1D1000C1A34E /* acwing_795 前缀和.cpp */,
+				BB923ACF270FE2A000C1A34E /* acwing_796 子矩阵的和.cpp */,
+				BB923AD1270FF0DB00C1A34E /* acwing_797 差分.cpp */,
+				BB923AD3270FF3FD00C1A34E /* acwing_798 差分矩阵.cpp */,
+				BB923AD5270FFF8300C1A34E /* acwing_799 最长连续不重复子序列的长度.cpp */,
+				BB923AD727105AF600C1A34E /* acwing_800 数组元素的目标和.cpp */,
+				BB923AD927105DAE00C1A34E /* acwing_2816 判断子序列.cpp */,
+				BB923ADB271168E600C1A34E /* acwing_801 二进制中1的个数.cpp */,
+				BB923ADD27116DA000C1A34E /* acwing_802 区间和.cpp */,
+				BB923AE12711CC1700C1A34E /* acwing_803区间合并.cpp */,
+				BB923AE32712952A00C1A34E /* acwing_826 单链表.cpp */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -142,14 +184,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB923AD0270FE2A000C1A34E /* acwing_796 子矩阵的和.cpp in Sources */,
 				BB23AE73270C193000D5312C /* acwing_788逆序对的数量.cpp in Sources */,
+				BB923ACC270EF8DF00C1A34E /* acwing_794高精度除法.cpp in Sources */,
 				BB23AE77270C23D000D5312C /* acwing_790 数的三次方根.cpp in Sources */,
-				BB23AE6B270B713000D5312C /* acwing_785_quick_Sort.cpp in Sources */,
+				BB923ADA27105DAE00C1A34E /* acwing_2816 判断子序列.cpp in Sources */,
+				BB923AE02711BF8D00C1A34E /* acwing_785 快排非递归版.cpp in Sources */,
+				BB23AE6B270B713000D5312C /* acwing_785 快排递归版.cpp in Sources */,
+				BB923ACA270EB0F400C1A34E /* acwing_793 高精度乘法.cpp in Sources */,
+				BB923AD4270FF3FD00C1A34E /* acwing_798 差分矩阵.cpp in Sources */,
 				BB23AE71270C05F000D5312C /* acwing_787 归并排序.cpp in Sources */,
 				BB23AE6D270BEE5400D5312C /* leetcode_253 会议室.cpp in Sources */,
 				BB923AC8270EA37D00C1A34E /* acwing_792 高精度减法.cpp in Sources */,
+				BB923ADE27116DA000C1A34E /* acwing_802 区间和.cpp in Sources */,
+				BB923ADC271168E600C1A34E /* acwing_801 二进制中1的个数.cpp in Sources */,
 				BB23AE6F270BF8CA00D5312C /* acwing_786 第k个数.cpp in Sources */,
+				BB923ACE270F1D1000C1A34E /* acwing_795 前缀和.cpp in Sources */,
+				BB923AD827105AF600C1A34E /* acwing_800 数组元素的目标和.cpp in Sources */,
+				BB923AD2270FF0DB00C1A34E /* acwing_797 差分.cpp in Sources */,
+				BB923AE22711CC1700C1A34E /* acwing_803区间合并.cpp in Sources */,
+				BB923AE42712952A00C1A34E /* acwing_826 单链表.cpp in Sources */,
 				BB23AE75270C1F9900D5312C /* acwing_789 （经典二分）数的范围.cpp in Sources */,
+				BB923AD6270FFF8300C1A34E /* acwing_799 最长连续不重复子序列的长度.cpp in Sources */,
 				BB23AE79270E9D0500D5312C /* acwing_791 高精度加法.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

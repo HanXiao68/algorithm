@@ -30,29 +30,29 @@
 //    return 0;
 //}
 
-//模板写
-#include<iostream>
-
-using namespace std;
-const int N=1e5+10;
-int a[N],b[N];
-int n,m;
-int main(){
-    cin>>n>>m;
-    for(int i=0;i<n;i++) cin>>a[i];
-    for(int i=0;i<m;i++) cin>>b[i];
-    for(int i=0,j=0;i<n;i++){
-        
-        while(j<m&&a[i] !=b[j]){
-            j++;
-        }
-        if(j == m)
-        {
-            puts("No");
-            return 0;
-        }
-        j++;
-    }
-    puts("Yes");
-    return 0;
-}
+////模板写
+//#include<iostream>
+//
+//using namespace std;
+//const int N=1e5+10;
+//int a[N],b[N];
+//int n,m;
+//int main(){
+//    cin>>n>>m;
+//    for(int i=0;i<n;i++) cin>>a[i];
+//    for(int i=0;i<m;i++) cin>>b[i];
+//    for(int i=0,j=0;i<n;i++){
+//
+//        while(j<m&&a[i] !=b[j]){
+//            j++;
+//        }
+//        if(j == m)
+//        {
+//            puts("No");
+//            return 0;
+//        }
+//        j++;
+//    }
+//    puts("Yes");
+//    return 0;
+//}
