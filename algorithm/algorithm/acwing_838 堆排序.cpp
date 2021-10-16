@@ -49,16 +49,6 @@ int main(){
 
 
 
-
-
-
-
-
-
-
-
-
-
 //调用stl的multiset库
 //#include <stdio.h>
 //#include <iostream>
