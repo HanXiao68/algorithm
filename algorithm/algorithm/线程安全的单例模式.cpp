@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 #include <pthread.h>
-
+#include <mutex>
 
 
 using namespace std;
@@ -15,7 +15,18 @@ using namespace std;
 template <typename T>
 class Singleton{
 public:
+//    双重锁 （一种方法）
+    Singleton* getInstance(){
+        if(value == nullptr)
+        {
+            m.lock();
+            if(value ==nullptr)
+                value = new Singleton();
+        }
+        m.unlock();
+    }
     static T& instance (){
+//        另一种方法：使用pthread_once(),参数1：pthread_once_t的实体。参数2：init函数
         pthread_once(&ponce, &Singleton::init);
     }
     static void init(){
@@ -25,5 +36,6 @@ private:
     Singleton();
     ~Singleton();
     static pthread_once_t ponce;
-    static T* value;
+    static T* value = NULL;
+    mutex m;
 };
