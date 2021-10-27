@@ -1,10 +1,3 @@
-//
-//  leetcode_538 把二叉搜索树BST转换为累加和数.cpp
-//  algorithm
-//
-//  Created by 韩霄 on 2021/10/27.
-//
-
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -21,12 +14,14 @@ public:
         int sum = 0;
 
     TreeNode* convertBST(TreeNode* root) {
-        if (root != nullptr) {
+        if (root == nullptr) return root;
+
             convertBST(root->right);
+
             sum += root->val;
             root->val = sum;
+
             convertBST(root->left);
-        }
         return root;
     }
     
